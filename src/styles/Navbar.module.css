@@ -1,0 +1,16 @@
+/* Navbar.module.css */
+.navbar {
+    background-color: #171717;
+    padding: 20px;
+  }
+  
+  .navLink {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .navLink:hover {
+    text-decoration: underline;
+  }
+  

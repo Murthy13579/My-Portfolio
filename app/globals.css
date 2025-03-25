@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Define global CSS variables */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  /* Use Tailwind utilities with CSS variables */
+  @apply bg-[var(--background)] text-[var(--foreground)] font-sans;
+}

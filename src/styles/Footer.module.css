@@ -1,0 +1,17 @@
+/* Footer.module.css */
+.footer {
+    background-color: #171717;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
