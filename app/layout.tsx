@@ -1,12 +1,12 @@
 // app/layout.tsx
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "../src/styles/globals.css"; // Import global styles from src/styles
-import "../src/styles/Footer.module.css"; // Import Footer module styles from src/styles
-import "../src/styles/Navbar.module.css"; // Import Navbar module styles from src/styles
+import "../src/styles/globals.css"; // Import global styles
+import "../src/styles/Footer.module.css"; // Import Footer styles
+import "../src/styles/Navbar.module.css"; // Import Navbar styles
 
-import Navbar from "../src/components/Navbar"; // Correct path to Navbar in src/components
-import Footer from "../src/components/Footer"; // Correct path to Footer in src/components
+import Navbar from "../src/components/Navbar"; // Path to Navbar component
+import Footer from "../src/components/Footer"; // Path to Footer component
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,18 +20,18 @@ const geistMono = Geist_Mono({
 
 // Dynamic metadata for better SEO
 export const metadata: Metadata = {
-  title: "My Next.js Application",
-  description: "An awesome app built with Next.js.",
+  title: "Manikanta Medidi's Portfolio",
+  description: "Welcome to the official portfolio website of Manikanta Medidi.",
   openGraph: {
-    title: "My Next.js Application",
-    description: "An awesome app built with Next.js.",
-    url: "https://myapp.com",
-    siteName: "MyApp",
+    title: "Manikanta Medidi's Portfolio",
+    description: "Explore the portfolio of Manikanta Medidi, a software developer.",
+    url: "https://manikantamedidi.com",  // Replace with your domain URL
+    siteName: "Manikanta Medidi",
   },
   twitter: {
     card: "summary_large_image",
-    title: "My Next.js Application",
-    description: "An awesome app built with Next.js.",
+    title: "Manikanta Medidi's Portfolio",
+    description: "Explore my projects, skills, and more.",
   },
 };
 

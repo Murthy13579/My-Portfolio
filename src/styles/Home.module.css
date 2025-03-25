@@ -1,0 +1,24 @@
+/* src/styles/Home.module.css */
+.homeContainer {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+  }
+  
+  .homeTitle {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .homeSubtitle {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  

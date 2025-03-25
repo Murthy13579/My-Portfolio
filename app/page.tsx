@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 
 export default function Home() {
-  const [message, setMessage] = useState("Welcome to My Website!");
+  const [message, setMessage] = useState("Welcome to My Portfolio!");
 
   useEffect(() => {
     console.log("Component mounted");
